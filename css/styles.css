@@ -1,0 +1,30 @@
+@media print {
+    body {
+        /* Doesn't work yet. */
+        -webkit-print-color-adjust: exact;
+    }
+}    
+
+@page {
+  size: letter landscape;
+  /*
+  margin-left: 3cm;
+  margin-right: 3cm;
+  */
+}
+
+body {
+    margin-top: 8mm;
+    margin-left: 22mm;
+}
+
+.rect {
+    width: 235mm;
+    height: 3mm;
+}
+
+.blue-rect {
+    background-image: url("../img/blue-rect.png");
+    background-size: cover;
+    /*background-image: linear-gradient(-90deg, #3A98C3 0%, #A0D3F2 100%);*/
+}
