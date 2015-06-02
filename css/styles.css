@@ -3,7 +3,24 @@
         /* Doesn't work yet. */
         -webkit-print-color-adjust: exact;
     }
+
+    section {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 0) 
+    }
 }    
+
+@media screen {
+    section {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%) 
+    }
+}
 
 @page {
   size: letter landscape;
@@ -15,16 +32,13 @@
 
 body {
     margin-top: 8mm;
-    margin-left: 22mm;
 }
 
 .rect {
-    width: 235mm;
-    height: 3mm;
+    display: block;
+    width: 205mm;
+    height: 2mm;
 }
 
-.blue-rect {
-    background-image: url("../img/blue-rect.png");
-    background-size: cover;
-    /*background-image: linear-gradient(-90deg, #3A98C3 0%, #A0D3F2 100%);*/
-}
+/* Programmatic blue rect */
+/*background-image: linear-gradient(-90deg, #3A98C3 0%, #A0D3F2 100%);*/
