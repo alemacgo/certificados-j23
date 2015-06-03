@@ -36,10 +36,12 @@
 body {
     margin-top: 20mm;
     font-family: 'Open Sans', sans-serif;
+    font-size: 4mm;
     text-align: center;
 }
 
 h1 {
+    margin-top: -8mm;
     font-weight: 400;
 }
 
@@ -48,18 +50,19 @@ div {
 }
 
 #name {
-    font-size: 11mm;
+    font-size: 10mm;
     font-family: 'Oleo Script', cursive;
 }
 
 #title {
-    font-size: 11mm;
+    font-size: 8mm;
     font-weight: 700;
 }
 
 #description {
-    margin: 0 auto 15mm auto;
+    margin: 0 auto 10mm auto;
     width: 160mm;
+    height: 10mm;
     text-align: left;
 }
 
@@ -72,21 +75,39 @@ section {
     height: 2mm;
 }
 
-.gray {
-    background-color: gray;
+.container-logo {
+    /*background-color: gray;*/
     height: 40mm;
     position: relative;
 }
 
-/*.row {
-    margin: auto;
-    width: 235mm;
-}*/
-
 .col-4 {
-    margin: 0;
     display: inline-block;
     width: 77mm;
+}
+
+.col-3 {
+    display: inline-block;
+    width: 58mm;
+}
+
+.col-6 {
+    display: inline-block;
+    width: 115mm;
+}
+
+.container-signature {
+    /*background-color: gray;*/
+    height: 20mm;
+    position: relative;
+}
+
+.signatures {
+    margin-bottom: 5mm;
+}
+
+.signature {
+    height: 20mm;
 }
 
 .left-logo {
