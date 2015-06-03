@@ -35,6 +35,32 @@
 
 body {
     margin-top: 20mm;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+div {
+    margin-bottom: 4mm;
+}
+
+#name {
+    font-size: 11mm;
+    font-family: 'Oleo Script', cursive;
+}
+
+#title {
+    font-size: 11mm;
+    font-weight: 700;
+}
+
+#description {
+    margin: 0 auto 15mm auto;
+    width: 160mm;
+    text-align: left;
 }
 
 section {
@@ -71,7 +97,7 @@ section {
 }
 
 .center-logo {
-    height: 35mm;
+    height: 30mm;
     display: block;
     margin-left: auto;
     margin-right: auto;
